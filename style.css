@@ -1,0 +1,233 @@
+/* BODY */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+}
+
+
+/* HEADER */
+
+header {
+    background-color: #0d1b2a;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px 40px;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: cyan;
+}
+
+
+/* HERO SECTION */
+
+.hero {
+    height: 90vh;
+
+    background-image: url("https://images.unsplash.com/photo-1527489377706-5bf97e608852");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+
+    color: white;
+
+    text-align: center;
+
+    padding: 40px;
+
+    border-radius: 10px;
+}
+
+.overlay h1 {
+    font-size: 50px;
+}
+
+.overlay p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.overlay button {
+    margin-top: 20px;
+
+    padding: 12px 25px;
+
+    border: none;
+
+    background-color: red;
+
+    color: white;
+
+    font-size: 18px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+.overlay button:hover {
+    background-color: darkred;
+}
+
+
+/* ABOUT */
+
+.about {
+    text-align: center;
+    padding: 50px;
+}
+
+.about h2 {
+    color: #0d1b2a;
+}
+
+
+/* FEATURES */
+
+.features {
+    padding: 50px;
+    background-color: white;
+}
+
+.features h2 {
+    text-align: center;
+}
+
+.container {
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+
+    gap: 20px;
+
+    margin-top: 30px;
+}
+
+.card {
+    background-color: #e9f5ff;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    text-align: center;
+
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+
+/* SERVICES */
+
+.services {
+    background-color: #dff6ff;
+
+    padding: 50px;
+}
+
+.services h2 {
+    text-align: center;
+}
+
+.services ul {
+    max-width: 600px;
+    margin: auto;
+}
+
+.services ul li {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+
+/* CONTACT */
+
+.contact {
+    padding: 50px;
+
+    text-align: center;
+}
+
+form {
+    display: flex;
+
+    flex-direction: column;
+
+    max-width: 500px;
+
+    margin: auto;
+}
+
+input,
+textarea {
+    margin: 10px 0;
+
+    padding: 12px;
+
+    font-size: 16px;
+}
+
+form button {
+    padding: 12px;
+
+    background-color: #0d1b2a;
+
+    color: white;
+
+    border: none;
+
+    font-size: 18px;
+
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #1b263b;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #0d1b2a;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 15px;
+}
